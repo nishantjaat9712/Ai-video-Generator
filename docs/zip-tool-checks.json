@@ -1,0 +1,181 @@
+[
+  {
+    "tool": "hookscore",
+    "exit_code": 0,
+    "output": [
+      {
+        "hook": "Why does your tea cost 10 rupees more today?",
+        "properties": {
+          "SPECIFICITY": 51,
+          "ADDRESS": 76,
+          "STAKES": 62,
+          "CURIOSITY": 59,
+          "BREVITY": 100
+        },
+        "verdict": 62,
+        "band": "WORKABLE",
+        "formula": "The Question"
+      }
+    ],
+    "error": ""
+  },
+  {
+    "tool": "title",
+    "exit_code": 0,
+    "output": [
+      {
+        "title": "A 10 Rupee Mystery",
+        "chars": 18,
+        "score": 100,
+        "issues": [],
+        "good": [
+          "18 characters, inside the 60-character desktop cut",
+          "carries a concrete figure (10)",
+          "thumbnail and title carry different words"
+        ]
+      }
+    ],
+    "error": ""
+  },
+  {
+    "tool": "deadair",
+    "exit_code": 0,
+    "output": {
+      "source": "D:\\Ai video generator\\.tmp\\zip-checks\\transcript.srt",
+      "duration": 40.0,
+      "cuts": [
+        {
+          "kind": "DEAD",
+          "start": 4.225,
+          "end": 5.775,
+          "why": "2.00s gap"
+        },
+        {
+          "kind": "DEAD",
+          "start": 10.225,
+          "end": 11.775,
+          "why": "2.00s gap"
+        },
+        {
+          "kind": "DEAD",
+          "start": 16.225,
+          "end": 17.775,
+          "why": "2.00s gap"
+        },
+        {
+          "kind": "DEAD",
+          "start": 22.225,
+          "end": 23.775,
+          "why": "2.00s gap"
+        },
+        {
+          "kind": "DEAD",
+          "start": 28.225,
+          "end": 29.775,
+          "why": "2.00s gap"
+        },
+        {
+          "kind": "DEAD",
+          "start": 34.225,
+          "end": 35.775,
+          "why": "2.00s gap"
+        }
+      ],
+      "removed": 9.3,
+      "out": 30.7
+    },
+    "error": ""
+  },
+  {
+    "tool": "chapters",
+    "exit_code": 0,
+    "output": {
+      "valid": true,
+      "chapters": [
+        {
+          "start": 0.0,
+          "label": "0:00",
+          "draft_title": "Laughs Steel Loudly",
+          "seconds": 18.0
+        },
+        {
+          "start": 18.0,
+          "label": "0:18",
+          "draft_title": "Changes Answer Laughter",
+          "seconds": 12.0
+        },
+        {
+          "start": 30.0,
+          "label": "0:30",
+          "draft_title": "Reaches Joke Payoff",
+          "seconds": 10.0
+        }
+      ]
+    },
+    "error": ""
+  },
+  {
+    "tool": "retention",
+    "exit_code": 0,
+    "output": {
+      "points": 11,
+      "start": 100.0,
+      "hook_leak": 28.0,
+      "end": 60.0,
+      "cliffs": [
+        {
+          "from": 90.0,
+          "to": 100.0,
+          "lost": 4.0,
+          "at_seconds": 37.8
+        },
+        {
+          "from": 80.0,
+          "to": 90.0,
+          "lost": 4.0,
+          "at_seconds": 33.6
+        },
+        {
+          "from": 70.0,
+          "to": 80.0,
+          "lost": 4.0,
+          "at_seconds": 29.4
+        },
+        {
+          "from": 60.0,
+          "to": 70.0,
+          "lost": 4.0,
+          "at_seconds": 25.2
+        },
+        {
+          "from": 50.0,
+          "to": 60.0,
+          "lost": 4.0,
+          "at_seconds": 21.0
+        }
+      ],
+      "slide_per_unit": 0.4,
+      "said": {}
+    },
+    "error": ""
+  },
+  {
+    "tool": "swipe",
+    "exit_code": 0,
+    "output": {
+      "outliers": [
+        {
+          "channel": "Fixture",
+          "title": "Why you lose 3 hours",
+          "views": 1000,
+          "median": 125,
+          "multiple": 8.0,
+          "formula": "The Question",
+          "url": "https://example.invalid"
+        }
+      ],
+      "skipped_thin_channels": []
+    },
+    "error": ""
+  }
+]
